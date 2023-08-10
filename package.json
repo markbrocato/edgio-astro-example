@@ -9,7 +9,7 @@
     "preview": "astro preview",
     "astro": "astro"
   },
-  "name": "astro-app",
+  "name": "edgio-astro-example",
   "type": "module",
   "version": "0.0.1",
   "dependencies": {
