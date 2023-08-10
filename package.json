@@ -1,15 +1,26 @@
 {
-  "name": "astro-app",
-  "type": "module",
-  "version": "0.0.1",
   "scripts": {
+    "edgio:dev": "edgio dev",
+    "edgio:build": "edgio build",
+    "edgio:deploy": "edgio deploy",
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
+  "name": "astro-app",
+  "type": "module",
+  "version": "0.0.1",
   "dependencies": {
+    "@astrojs/node": "^5.3.2",
     "astro": "^2.10.4"
+  },
+  "devDependencies": {
+    "@edgio/astro": "7.1.2-next-1691663550-c1de8fc.0",
+    "@edgio/cli": "7.1.2-next-1691663550-c1de8fc.0",
+    "@edgio/core": "7.1.2-next-1691663550-c1de8fc.0",
+    "@edgio/devtools": "7.1.2-next-1691663550-c1de8fc.0",
+    "@edgio/prefetch": "7.1.2-next-1691663550-c1de8fc.0"
   }
 }
